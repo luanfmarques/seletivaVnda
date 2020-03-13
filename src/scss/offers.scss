@@ -1,0 +1,104 @@
+.spotlight {
+    h1 {
+        color: black;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 3rem;
+        width: 100%;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    hr {
+        width: 85%;
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+        margin-top: 1rem;
+    }
+}
+
+#cards-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+
+    .offer-pics {
+        position: relative;
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+
+        .top {
+            opacity: 0;
+            z-index: 1;
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            transition: opacity .5s ease-in-out;
+        }
+
+        button {
+            position: absolute;
+            bottom: 5%;
+            right: 10%;
+            width: 80%;
+            height: 50px;
+            border: 0;
+            opacity: 0;
+            transition: opacity .5s ease-in-out;
+            background-color: #fff;
+            color: black;
+            font-size: 1rem;
+            z-index: 2;
+
+            &:hover {
+                background-color: #DDD5CC;
+                color: darkorange;
+                cursor: pointer;
+            }
+        }
+
+        &:hover .btn {
+            opacity: 1;
+            transition: opacity .5s ease-in-out, color .5s ease, background-color .5s linear;
+        }
+
+        &:hover .top {
+            opacity: 1;
+        }
+    }
+
+    p {
+        font-family: 'PT Sans', sans-serif;
+        color: #5D4F4A;
+    }
+
+    .item-Name,
+    .price {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 2.5rem;
+    }
+
+    .price {
+        color: darkorange;
+    }
+
+    .parcel {
+        color: lightslategray;
+        margin-top: 1rem;
+    }
+
+}

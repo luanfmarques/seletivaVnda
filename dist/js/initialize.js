@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".banner-Pics").slick({autoplay:!0,slidesToScroll:1,autoplaySpeed:1500,responsive:[{breakpoint:993,settings:{arrows:!1,adaptiveHeight:!0}}]})});

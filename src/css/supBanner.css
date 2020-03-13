@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i&display=swap");
+/* line 3, src/scss/supBanner.scss */
+#unique-Banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem; }
+
+/* line 10, src/scss/supBanner.scss */
+.unique-Banner {
+  width: 95%;
+  height: auto; }
+
+/* line 15, src/scss/supBanner.scss */
+#support-Banner-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4rem; }
+
+/* line 22, src/scss/supBanner.scss */
+.supBanner {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: 430px; }
+  /* line 28, src/scss/supBanner.scss */
+  .supBanner a {
+    text-decoration: none;
+    height: 100%; }
+  /* line 33, src/scss/supBanner.scss */
+  .supBanner img {
+    width: 100%; }
+  /* line 37, src/scss/supBanner.scss */
+  .supBanner .site {
+    color: darkorange;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 1rem; }
+  /* line 45, src/scss/supBanner.scss */
+  .supBanner .info {
+    color: #272727;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1rem;
+    line-height: 2rem; }
+
+/* line 53, src/scss/supBanner.scss */
+.insta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem; }
+  /* line 59, src/scss/supBanner.scss */
+  .insta img {
+    width: 100%;
+    height: 200px; }
+
+@media (max-width: 991.98px) {
+  /* line 66, src/scss/supBanner.scss */
+  .unique-Banner {
+    width: 100%; }
+  /* line 70, src/scss/supBanner.scss */
+  #support-Banner-Container {
+    flex-wrap: wrap; }
+    /* line 74, src/scss/supBanner.scss */
+    #support-Banner-Container .supBanner {
+      margin-bottom: 3rem;
+      height: auto;
+      background-color: #f6f6f6;
+      padding: 5px; } }

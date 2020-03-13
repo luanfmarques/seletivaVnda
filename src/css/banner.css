@@ -1,0 +1,31 @@
+/* line 1, src/scss/banner.scss */
+.banner-Pics {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0.4rem auto 0; }
+
+/* line 7, src/scss/banner.scss */
+.slick-prev:before,
+.slick-next:before {
+  color: black; }
+  /* line 11, src/scss/banner.scss */
+  .slick-prev:before:after,
+  .slick-next:before:after {
+    color: black; }
+
+/* line 16, src/scss/banner.scss */
+.slick-prev,
+.slick-next {
+  color: black; }
+
+@media (max-width: 991.98px) {
+  /* line 23, src/scss/banner.scss */
+  .banner-Pics {
+    width: 100%;
+    margin: 0 auto; } }
+
+@media (max-width: 767.98px) {
+  /* line 30, src/scss/banner.scss */
+  .banner-Pics {
+    width: 100%;
+    margin: 0 auto; } }
